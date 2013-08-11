@@ -60,7 +60,7 @@
  * TO DO
  *
  * THANKS
- * Matjaž for poiting out the save_pa bug (should of tested it!)
+ * Matjaï¿½ for poiting out the save_pa bug (should of tested it!)
  * Cahva for posting yet another bug in the save_pa (Man I can be silly sometimes!)
  * Cole spotting the resize flaw and providing a fix
  *
@@ -667,7 +667,7 @@ class Image_moo
 		$this->_copy_to_temp_if_needed();
 
 		// set the colour
-		$col = $this->_html2rgb($$this->background_colour);
+		$col = $this->_html2rgb($this->background_colour);
 		$bg = imagecolorallocate($this->temp_image, $col[0], $col[1], $col[2]);
 
 		// rotate as needed
